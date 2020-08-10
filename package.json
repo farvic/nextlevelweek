@@ -1,6 +1,6 @@
 {
   "name": "nextlevelweek",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple website developed during the Next Level Week",
   "main": "index.js",
   "scripts": {

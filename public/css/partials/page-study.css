@@ -116,7 +116,7 @@
     justify-content: space-between;
 }
 
-.teacher-item footer p {
+.teacher-item footer a {
     font-size: 1.4rem;
     line-height: 2.4rem;
     color: var(--color-text-complement);
@@ -128,7 +128,7 @@
     display: block;
 }
 
-.teacher-item footer button {
+.teacher-item footer .button {
     width: 20rem;
     height: 5.6rem;
     background: var(--color-secondary);
@@ -148,8 +148,20 @@
     margin-left: 1.6rem;
 }
 
-.teacher-item footer button:hover {
+.button  img {
+    /* margin-right: 2rem; */
+    margin-right: 1.6vw;
+
+}
+
+.teacher-item footer .button:hover {
     background: var(--color-primary-dark);
+}
+
+#page-study main .no-results {
+    max-width: 30rem;
+    margin: 12rem auto;
+    text-align: center;
 }
 
 @media (min-width: 700px) {

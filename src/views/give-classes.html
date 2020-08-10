@@ -33,7 +33,7 @@
             </div>
         </header>
         <main>
-            <form action="" id="create-class">
+            <form action="/save-classes" id="create-class" method="POST">
                 <fieldset>
                     <legend>Seus dados</legend>
                     <div class="input-block">
@@ -49,7 +49,7 @@
                         <input name="whatsapp" id="whatsapp" type="number" required>
                     </div>
                     <div class="textarea-block">
-                        <label for="bio">Link da sua foto <small>(comece com https://)</small></label>
+                        <label for="bio">Escreva uma bio</label>
                         <textarea name="bio" id="bio" required></textarea>
                     </div>
                 </fieldset>
@@ -94,7 +94,7 @@
                             <input type="time" name="time_to[]" id="time_from" required>
                         </div>
                     </div>
-                    <div class="schedule-item">
+                    <!-- <div class="schedule-item">
                         <div class="select-block">
                             <label for="weekday">Dia da semana</label>
                             <select name="weekday[]" required>
@@ -112,7 +112,7 @@
                             <label for="time_to">Até</label>
                             <input type="time" name="time_to[]" id="time_from" required>
                         </div>
-                    </div>
+                    </div> -->
                 </fieldset>
             </form>
             <footer>
